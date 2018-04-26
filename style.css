@@ -1,0 +1,145 @@
+body{
+  margin: 0 3%;
+}
+.search_icon{
+  padding: 10px;
+  width: 40px;
+  height: auto;
+  opacity: 0.6;
+  cursor: pointer;
+   position: absolute;
+   right: 0;
+   top: 10px;
+   color: #fff;
+}
+.search_icon:hover{
+  opacity: 1;
+}
+.logo{
+  color: #fff !important;
+  font-size: 30px;
+}
+.main_navbar{
+	background: #0d0e21;
+	margin: 0 3%;
+}
+.search_input{
+	background: inherit;
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.main_navbar li a{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.main_container{
+	padding-top: 70px;
+	background-color: #fcfcff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.img-1{
+	width: 100%;
+}
+.Headlines{
+	padding: 0;
+}
+.Headlines header h3{
+	margin:5px;
+	margin-left: 15px;
+	border-bottom: 1px solid #888;
+	font-size: 16px;
+	color: #cbcbcb;
+	padding-bottom: 5px;
+}
+.main_container .row h3{
+	font-weight: 700;
+}
+.Headlines .container-fluid div{
+	border-bottom: 1px solid #888;
+	padding-left: 0;
+	font-weight: 600;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.Headlines .container-fluid div p{
+	font-size: 14px;
+}
+.left_column{
+	border-bottom: 1px  solid #888;
+	padding-left: 0;
+}
+.img{
+	width: 100%;
+}
+.third_container header h3{
+	text-align: center;
+	color: #888;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cbcbcb;
+}
+.third_container header h3 span{
+	display: inline-block;
+    margin-right: 5px;
+    font-weight: 1000;
+    padding-top: 4px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    vertical-align: bottom;
+    background: red;
+}
+.second_container{
+	margin-top: 20px;
+}
+.fourth_container .col1 img{
+	width: 50%;
+}
+.fourth_container .col1 h3{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    margin: 0;
+}
+.fourth_container .col1 ul li{
+	list-style: none;
+}
+.fourth_container .col1 ul{
+	margin: 0;
+	padding:0;
+}
+.main_footer div div h2{
+	display: inline-block;
+	color: #f42;
+	font-weight: 800;
+}
+.upper_footer{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #cbcbcb;
+}
+.lower_footer ul{
+	width: 100%;
+}
+.lower_footer div{
+	background: inherit;
+}
+@media screen and (max-width:768px){
+	.search_input{
+		width: 92% !important;
+	    display: inline-block;
+	}
+	body{
+ 		 margin: 0;
+	}
+	.main_navbar{
+
+	margin: 0;
+}
+.lower_footer ul{
+	text-align: center;
+}
+
+}
